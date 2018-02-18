@@ -19,6 +19,6 @@ if (isset($_POST['signup'])) {
 	     	echo "error";
 	     }
 	}else{
-          $message = "All Fields are Required";
+          echo "All Fields are Required";
 	}
 }
