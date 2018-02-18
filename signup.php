@@ -14,6 +14,8 @@ include 'includes/signup.inc.php';
 	<input type="password" name="pwd" placeholder="Password....">
 
 	<button type="submit" name="signup">Sign up</button>
+	 
+	 <a href="login.php">Login</a>
  </form>
 
 </div>
