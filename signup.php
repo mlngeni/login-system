@@ -15,7 +15,7 @@ include 'includes/signup.inc.php';
 
 	<button type="submit" name="signup">Sign up</button>
 	 
-	 <a href="login.php">Login</a>
+	 <a align='left' href="login.php">Login</a>
  </form>
 
 </div>
