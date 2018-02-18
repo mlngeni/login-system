@@ -18,6 +18,8 @@ if (isset($_SESSION['uid'])) {
  	     
 
  	     <h3 align="center">Home Page GOES HERE</h3>
+		 
+ 	     <p align="center">You will be automaticly logged out in 60 seconds</p>
          
           </div>
 	    <?php }
