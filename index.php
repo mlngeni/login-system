@@ -4,7 +4,7 @@ include 'includes/header.php';
 
 if (isset($_SESSION['uid'])) {
 	 
-	 if (time() - $_SESSION['last_login_timestamp'] > 180) {
+	 if (time() - $_SESSION['last_login_timestamp'] > 60) {
 	 	  
 	 	  header("Location: login.php?autoLogout=success");
 	 }else{
