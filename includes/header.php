@@ -19,7 +19,6 @@ include 'conf/db_conn.php';
         
         <div class="menu">
             <a href="index.php">Home</a>
-            <a href="login.php">Login</a>
             <a href="signup.php">Sign up</a>
             <a href="./about.php">About</a>
 
