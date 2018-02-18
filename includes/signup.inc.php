@@ -5,7 +5,7 @@ include './conf/db_conn.php';
 
 if (isset($_POST['signup'])) {
 	
-	if (!empty($_POST['uid']) || !empty($_POST['pwd'])) {
+	if (!empty($_POST['uid']) && !empty($_POST['pwd'])) {
 		$qry = "INSERT INTO $table (uid, pwd) VALUES (:uid, :pwd)";
 	    $stmt = $conn->prepare($qry);
 	     $result = $stmt->execute(array(
